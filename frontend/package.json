@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": "vite --configLoader native --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build --configLoader native",
+    "test:e2e": "playwright test",
+    "preview": "vite preview --configLoader native --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "latest"
+  }
+}
